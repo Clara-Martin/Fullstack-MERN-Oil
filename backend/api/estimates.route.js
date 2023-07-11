@@ -17,5 +17,6 @@ router.route("/get-profile").get(ProfileCtrl.apiGetProfileData);
 router.route("/register").post(ProfileCtrl.apiCreateProfile);
 router.route("/login").post(ProfileCtrl.apiLoginProfile);
 router.route("/get-estimate").post(estimatesController.apiCalculateEstimate);
+router.route("/*").get((req, res) => {res.json({error: "myerror" })});
 
 export default router;
