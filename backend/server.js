@@ -16,7 +16,7 @@ app.use("/api/v1", estimates)
 //if a link not specified is visited, return an error
 //here, req is the HTTP request the server receives and res is the HTTP response it returns
 //in this case the response is an HTTP error code (404) and a json file stating "not found"
-app.use("*", (req, res) => res.status(404).json({error: "not foundd"}))
+app.use("*", (req, res) => res.status(404).json({error: "not found"}))
 
 //export the app as a module
 export default app
