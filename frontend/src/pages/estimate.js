@@ -79,7 +79,7 @@ const Estimate = (props) => {
 
     console.log(data);
 
-    fetch(`http://localhost:5000/api/v1/estimates/${userID}`, {
+    fetch(`https://mern-oil.onrender.com/api/v1/estimates/${userID}`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -108,7 +108,7 @@ const Estimate = (props) => {
     // fetch to api/get-profile, passing in user id
     console.log(userID);
     if (userID == undefined) return;
-    fetch(`http://localhost:5000/api/v1/get-profile?id=${userID}`)
+    fetch(`https://mern-oil.onrender.com/api/v1/get-profile?id=${userID}`)
       .then((res) => res.json())
       .then((data) => {
         // if address is in state, set inState to true
@@ -131,7 +131,7 @@ const Estimate = (props) => {
 
   // get user's history to see if they've ordered before (history factor)
   useEffect(() => {
-    fetch(`http://localhost:5000/api/v1/estimates/${userID ? userID : ""}`)
+    fetch(`https://mern-oil.onrender.com/api/v1/estimates/${userID ? userID : ""}`)
       .then((data) => {
         return data.json();
       })
