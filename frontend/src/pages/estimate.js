@@ -45,7 +45,7 @@ const Estimate = (props) => {
 
     console.log(data);
 
-    fetch(`http://localhost:5000/api/v1/get-estimate`, {
+    fetch(`https://mern-oil.onrender.com/api/v1/get-estimate`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
