@@ -1,6 +1,7 @@
 # COSC-4353-Fullstack
 Webapp to predict fuel usage based on input client information, featuring: login, registration, profile management, fuel quote with pricing module, and fuel quote history.
-This webapp is hosted online at: https://mern-oil-frontend.onrender.com/
+
+## This webapp is hosted online at: https://mern-oil-frontend.onrender.com/
 
 ### Tech Stack
 - **Frontend**: JavaScript, ReactJS, Material UI, CSS Modules
