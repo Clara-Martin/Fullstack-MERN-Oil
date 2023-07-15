@@ -9,7 +9,7 @@ Webapp to predict fuel usage based on input client information, featuring: login
 
 ### Running Locally
 - Ensure that you have [Node.js](https://nodejs.org/), and [Git](https://git-scm.com/) installed.
-- Clone the repository by running `git clone https://github.com/SharmaMitchell/COSC-4353-Fullstack.git` from the directory where you want the codebase stored
+- Clone the repository by running `git clone https://github.com/Clara-Martin/Fullstack-MERN-Oil.git` from the directory where you want the codebase stored
 - Run `cd ./frontend` to navigate to the frontend directory
 - Run `npm install`, to install the required dependencies for the frontend
 - Run `npm start` to start a local server for the frontend React application
